@@ -23,21 +23,7 @@ async function render(root, querystring) {
   renderSubpage(root, mainIndexJson, type);
 }
 
-window.onpopstate = async (event) => {
-  const root = document.getElementById('root'); // Adjust this to your root element
-  const indexJson = await fetcher('path/to/index.json'); // Adjust this to your index JSON file
-  const urlParams = new URLSearchParams(window.location.search);
-  const type = urlParams.get('type');
-  const content = urlParams.get('content');
 
-  if (content === 'questions') {
-    await renderQuestions(root, indexJson, type);
-  } else if (content === 'keywords') {
-    await renderKeywords(root, indexJson, type);
-  } else {
-    await renderSubpage(root, indexJson, type);
-  }
-};
 const root = document.querySelector('#app');
 
 render(root, window.location.search);
