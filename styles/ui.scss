@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .navigation__list {
+    display: flex;
+    gap: var(--spacing);
+  }
+  
+  .navigation__item {
+    list-style: none;
+  }
+  
+  .valmynd {
+    display: flex;
+    gap: var(--spacing);
+    justify-content: center;
+    margin-top: var(--spacing);
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing);
+  }
+
+  header h1{
+    text-align: center;
+  }
