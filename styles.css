@@ -53,6 +53,10 @@ button {
   max-width: var(--max-width);
 }
 
+img {
+  max-width: 70%;
+}
+
 h4 {
   display: flex;
   justify-content: space-around;
@@ -132,6 +136,4 @@ header h1 {
   background-color: var(--color-background-zebra);
 }
 
-header h1{
-text-align: center;
-}
+/*# sourceMappingURL=styles.css.map */
