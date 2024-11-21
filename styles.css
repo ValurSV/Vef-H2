@@ -132,4 +132,6 @@ header h1 {
   background-color: var(--color-background-zebra);
 }
 
-/*# sourceMappingURL=styles.css.map */
+header h1{
+text-align: center;
+}
