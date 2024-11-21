@@ -1,0 +1,26 @@
+.keywordDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--spacing);
+  }
+  
+  .keyword {
+    display: flex;
+    gap: var(--spacing);
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-light-gray);
+    padding-bottom: 1rem;
+  
+  }
+  
+  .keyword h3 {
+  
+    background-color: gray;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .keyword p {
+    background-color: var(--color-background-zebra);
+  }
