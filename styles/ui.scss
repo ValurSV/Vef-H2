@@ -19,14 +19,17 @@ header {
     gap: var(--spacing);
     justify-content: center;
     margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
   }
   
   footer {
     display: flex;
     justify-content: center;
     gap: var(--spacing);
+    font-weight: bold;
   }
 
   header h1{
     text-align: center;
+    margin-top: 0.5rem;
   }

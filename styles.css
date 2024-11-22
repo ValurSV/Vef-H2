@@ -42,6 +42,8 @@ button {
 
 button {
   padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: lightgrey;
 }
 
 #root {
@@ -51,6 +53,19 @@ button {
   margin: var(--spacing) auto;
   padding-inline: var(--spacing);
   max-width: var(--max-width);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+body {
+  background-color: lightyellow;
+}
+
+section {
+  display: flex;
+  justify-content: center;
 }
 
 h4 {
@@ -80,16 +95,19 @@ header {
   gap: var(--spacing);
   justify-content: center;
   margin-top: var(--spacing);
+  margin-bottom: var(--spacing);
 }
 
 footer {
   display: flex;
   justify-content: center;
   gap: var(--spacing);
+  font-weight: bold;
 }
 
 header h1 {
   text-align: center;
+  margin-top: 0.5rem;
 }
 
 .question {
@@ -97,6 +115,16 @@ header h1 {
   flex-direction: column;
   gap: var(--spacing);
   margin-top: var(--spacing);
+  margin-left: 0.5rem;
+  font-weight: bold;
+}
+
+.questionDiv {
+  border-color: black;
+  background: lightgrey;
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-radius: 0.5rem;
 }
 
 .answerDiv {
@@ -105,6 +133,32 @@ header h1 {
   gap: var(--spacing);
   justify-content: flex-end;
   flex-direction: row-reverse;
+}
+
+label {
+  margin: 5px;
+}
+
+input {
+  margin-left: 0.5rem;
+}
+
+blockquote p {
+  font-weight: bold;
+  font-size: large;
+  margin-top: 0.5rem;
+}
+
+.content {
+  margin-top: 0.5rem;
+}
+
+img {
+  max-width: 70%;
+  width: 1000px;
+  border-radius: 0.5rem;
+  border-style: solid;
+  border-color: black;
 }
 
 .keywordDiv {
@@ -118,20 +172,16 @@ header h1 {
   gap: var(--spacing);
   flex-direction: column;
   align-items: center;
-  background-color: var(--color-light-gray);
   padding-bottom: 1rem;
 }
 
 .keyword h3 {
-  background-color: gray;
+  background-color: lightgray;
   width: 100%;
   text-align: center;
+  border-color: black;
+  border-style: solid;
+  border-radius: 0.5rem;
 }
 
-.keyword p {
-  background-color: var(--color-background-zebra);
-}
-
-header h1{
-text-align: center;
-}
+/*# sourceMappingURL=styles.css.map */

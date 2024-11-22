@@ -43,6 +43,8 @@
   
   button {
     padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: lightgrey;
   }
 
   #root {
@@ -54,4 +56,17 @@
     padding-inline: var(--spacing);
     max-width: var(--max-width);
   }
-  
+
+
+  ul {
+    padding-left: 20px;
+  }
+
+  body {
+    background-color: lightyellow;
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
