@@ -115,4 +115,4 @@ Einnig er gert radio úr "answers" sem inniheldur boolean "true" eða "false" þ
 ### Contributers
 Valur Sudee Viðarsson - vsv11@hi.is - ValurSV
 Ignas Pacevicius - igp4@hi.is - NASPA365
-Jóhann Ástráðsson - ja41@hi.is- SpooossGaming
+Jóhann Ástráðsson - joa41@hi.is- SpooossGaming
