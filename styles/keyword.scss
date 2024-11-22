@@ -9,18 +9,18 @@
     gap: var(--spacing);
     flex-direction: column;
     align-items: center;
-    background-color: var(--color-light-gray);
     padding-bottom: 1rem;
   
   }
   
   .keyword h3 {
-  
-    background-color: gray;
+    background-color: lightgray;
     width: 100%;
     text-align: center;
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 0.5rem;
   }
   
-  .keyword p {
-    background-color: var(--color-background-zebra);
-  }
+ 
